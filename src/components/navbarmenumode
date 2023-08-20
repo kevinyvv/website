@@ -1,0 +1,12 @@
+<div onClick = {handleNav} className = 'block md:hidden'>
+                {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
+            </div>
+            <div className = {!nav ? 'fixed left-0 top-0 w-[60%] border-r border-r-gray-900 h-full bg-white ease-in-out duration-500' : 'fixed left-[-100%]'}>
+            <h1 className = 'w-full text-3xl font-bold text-[#c288fc]'>KW.</h1>
+            <ul className='p-4'>
+                <a href='#About' onClick = {handleNav}> <li className = 'p-4 border-b'>About</li> </a>
+                <a href='#projects' onClick = {handleNav}> <li className = 'p-4 border-b'>Projects</li> </a>
+                <a href='#Awards'onClick = {handleNav}> <li className = 'p-4 border-b'>Awards</li> </a>
+                <a href='#hmu' onClick = {handleNav}> <li className = 'p-4 border-b'>Contact</li> </a> 
+        </ul>
+        </div>
