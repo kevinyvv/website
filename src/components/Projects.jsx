@@ -1,9 +1,8 @@
-import React, {useEffect} from "react";
+import React from "react";
 import Container from "./ProjectContainer";
 import catweep from '../assets/catweep.jpg'
 import catflex from '../assets/catflex.jpg'
 import smilecat from '../assets/smilecat.jpg'
-import aos from 'aos';
 import 'aos/dist/aos.css'
 
 const Projects = () => {

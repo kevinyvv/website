@@ -7,10 +7,8 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Awards from './components/Awards/Awards.jsx';
-import ModeSwitch from './components/sunandmoon';
 import Top from './components/scrollToTop';
 
-import { useEffect } from 'react';
 
 function App() {
   

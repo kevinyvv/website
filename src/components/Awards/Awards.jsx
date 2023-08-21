@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import AContainer from './AwardContainer';
-import aos from 'aos';
 import 'aos/dist/aos.css'
 
 const UniAward = () => {
@@ -56,11 +55,11 @@ const Awards = () => {
                     <option>None</option>
                 </select> 
                 </div>
-                {selected == "All" ? <div className=''> <UniAward/> <MathAward/> <MiscAward/> </div>: "" }
-                {selected == "Uni" ? <UniAward/> : "" }
-                {selected == "Math" ? <MathAward/>:"" }
-                {selected == "Misc" ? <MiscAward/> :"" }
-                {selected == "None" ? "" :"" }
+                {selected === "All" ? <div className=''> <UniAward/> <MathAward/> <MiscAward/> </div>: "" }
+                {selected === "Uni" ? <UniAward/> : "" }
+                {selected === "Math" ? <MathAward/>:"" }
+                {selected === "Misc" ? <MiscAward/> :"" }
+                {selected === "None" ? "" :"" }
             </div>
         </section>
     )

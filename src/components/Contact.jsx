@@ -1,7 +1,6 @@
 import React from "react";
 import Form from "./EmailForm";
 import {FaRegEnvelope, FaPhone} from 'react-icons/fa6'
-import aos from 'aos';
 import 'aos/dist/aos.css'
 
 const Contact = () => {
