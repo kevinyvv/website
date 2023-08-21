@@ -1,5 +1,4 @@
 import React, {useState, useRef} from "react";
-import aos from 'aos';
 import 'aos/dist/aos.css'
 import emailjs from '@emailjs/browser';
 
@@ -7,10 +6,6 @@ const Form = () => {
     const[name,setName] = useState();
     const[email, setEmail] = useState();
     const[message, setMessage] = useState();
-
-    const submitsuccess = document.querySelector('.success')
-    const submiterror = document.querySelector('.error')
-
 
     const form = useRef();
     const sendEmail = (e) => {

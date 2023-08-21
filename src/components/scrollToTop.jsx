@@ -1,15 +1,13 @@
 import React from 'react';
 import { FaArrowUp } from "react-icons/fa";
 import {useState} from 'react';
-import FadeIn from "react-fade-in";
-import aos from 'aos';
 import 'aos/dist/aos.css'
 
 const Top = () => {
     
     const [Display, setDisplay] = useState(window.scrollY > 100 ? true :false);
     
-        const check = () => {
+        const check = () =>{
         window.scrollY > 100 ? setDisplay(true) : setDisplay(false)
         }
         window.addEventListener("scroll", check);

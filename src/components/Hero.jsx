@@ -1,7 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed'
-import Contact from './Contact';
-import Projects from './Projects';
+
 
 const Hero = () => {
     
@@ -26,11 +25,13 @@ const Hero = () => {
                 </button>
                 </a> 
         </div>
-        <div id='languages/skills'>
-            
+        <div id='languages/skills' className='flex justify-center'>
+            <text className="text-black md:text-3xl sm:text-2xl text-xl font-bold md:pl-2 pl-2 dark:text-white">
+                Skills:
+            </text>
+
         </div>          
         </div>
-        
     </div>
     )
 }

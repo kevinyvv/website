@@ -1,9 +1,6 @@
-import { Modal } from "@material-ui/core";
-import React, { useState } from "react";
+import React from "react";
 import {
-    FaInstagram,
     FaGithubSquare,
-    FaLinkedin,
 } from 'react-icons/fa'
 
 
