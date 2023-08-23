@@ -6,8 +6,12 @@ const UniAward = () => {
 
     return(   
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-4 lg:grid-cols-4 sm:grid-cols2 gap-8 my-4 '>
-                <AContainer title = "National Math Scholarship" description= "awarded by the Faculty of Mathematics at the University of Waterloo"/>
-                <AContainer title = "President's Scholarship of Distinction" description = "awarded by the University of Waterloo" />
+                <AContainer title = "National Math Scholarship" 
+                description= "Entrance Scholarship of $15,000"
+                details="awarded by the Faculty of Mathematics at the University of Waterloo"/>
+                <AContainer title = "President's Scholarship of Distinction" 
+                description = "Entrance Scholarship of $2,0000" 
+                details="awarded by the University of Waterloo"/>
             </div>
     )
 
@@ -17,9 +21,21 @@ const MathAward = () => {
 
     return(   
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-4 lg:grid-cols-4 sm:grid-cols2 gap-8 my-4'>
-                <AContainer title = 'Canadian Senior Math Roll Group V' description="awarded by the university of Waterloo"/>
-                <AContainer title = "Hypatia Honor Roll Group III"/>
-                <AContainer title = 'Cayley Honor Roll Group IV' />
+                <AContainer title = 'Canadian Senior Math Roll Group V'
+                description = "Math Contest Award" 
+                details="awarded by the University of Waterloo for being within top ~5% of scorers"/>
+
+                <AContainer title = "Hypatia Honor Roll Group III"
+                description = "Math Contest Award" 
+                details="awarded by the University of Waterloo for being within top ~3% of scorers"/>
+
+                <AContainer title = 'Cayley Honor Roll Group IV'
+                description = "Math Contest Award" 
+                details="awarded by the University of Waterloo for being within top ~4% of scorers"/>
+
+                <AContainer title = 'Galois Honor Roll Group IV'
+                description = "Math Contest Award" 
+                details="awarded by the University of Waterloo for being within top ~4% of scorers"/>
             </div>
     )
 
@@ -29,6 +45,18 @@ const MiscAward = () => {
 
     return(   
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-4 lg:grid-cols-4 sm:grid-cols2 gap-8 my-4'>
+            <AContainer title = "Summa Cum Laude" 
+                description = "Academic Award" 
+                details="awarded by Westdale Secondary School for being in the top 5% of graduating class "/>
+            <AContainer title = "International Baccalaureate Diploma" 
+                description = "Diploma" 
+                details="awarded by IBO for completion of the International Baccalaureate Programme"/>
+            <AContainer title = "DELF B1" 
+                description = "Certification" 
+                details="awarded by France Education International for having a B1 Proficiency in French"/>
+            <AContainer title = "School Honor Roll" 
+                description = "Academic Award" 
+                details="awarded by Westdale Secondary School for having an 80%+ average for all four years of high school"/>
             </div>
     )
 

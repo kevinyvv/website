@@ -17,9 +17,9 @@ const Footer = () => {
                 Website created by Kevin Wu 
             </h1>
             <div className="flex justify-between px-4 ">
-            <FaLinkedin size = {30} className="hover:bg-[#a874db]"/>
-            <FaGithubSquare size = {30} className="hover:bg-[#a874db]"/>
-            <FaInstagram size = {30} className="hover:bg-[#a874db]"/>
+            <a href="https://www.linkedin.com/in/kevin-wu-295b831a1" target="_blank"><FaLinkedin size = {30} className="hover:bg-[#a874db]"/></a>
+            <a href="https://github.com/kevinyvv" target="_blank"><FaGithubSquare size = {30} className="hover:bg-[#a874db]"/></a>
+            <a href="https://www.instagram.com/kevinyvv/" target="_blank"><FaInstagram size = {30} className="hover:bg-[#a874db]"/></a>
             </div>
         </div>
     </div>

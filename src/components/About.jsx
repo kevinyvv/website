@@ -17,7 +17,16 @@ const About = () => {
                         <h2 className="text-[#c288fc] font-bold text-xl sm:text-2xl md:text-3xl dark:text-[#fcdf88]"> About Me </h2>
                         <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 dark:text-white"> Please hire me for internships :pray: </h1> 
                         <p className="dark:text-white mt-8">
-                        Hey there, I'm Kevin Wu, and I'm thrilled to be an upcoming Computer Science student at the University of Waterloo. With a strong passion for math and a new love for coding, I'm all set to dive into the world of technology. From competitive swimming to hitting the gym, I've transitioned from one kind of challenge to another. Solving complex problems through coding gives me the same rush I used to get during swim meets. Join me as I share my projects and experiences while navigating this exciting journey of learning and growth. Take a look at my projects and awards below!
+                        Hey there, I'm Kevin Wu, a Computer Science student at the University of Waterloo.
+                        <br/>
+                        I'm super passionate about programming and mathematics, in various areas such as 
+                        Web Development, Data Science, Deep Learning, and Computer Vision.
+                        <br/>
+                        When I’m not in the world of mathematics and computers, I like to go to the gym, swim, read manga, and chill with friends.
+                        <br/>
+                        I’d love to explore new opportunities, and challenge myself in the world of technology to create projects I’m interested in.
+                        <br/>
+                        Take a look at my projects and awards below!
                         </p>
                         
                    </div>
