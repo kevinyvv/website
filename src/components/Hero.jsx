@@ -26,7 +26,7 @@ const Hero = () => {
                 </button>
                 </a> 
         </div>
-        <div id='languages/skills' className='flex justify-center space-x-3'>
+        <div id='languages/skills' className='flex justify-center space-x-3 my-4'>
             <text className="text-black md:text-3xl sm:text-2xl text-xl font-bold md:pl-2 pl-2 dark:text-white">
                 Skills: 
             </text>

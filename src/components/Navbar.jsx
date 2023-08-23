@@ -31,7 +31,7 @@ const Navbar = () => {
                     <ModeSwitch sunColor = '#c288fc' moonColor = '#fcdf88'/> 
                 </li> 
             </ul>
-            <div className='flex md:hidden w-full justify-center my-auto  absolute space-x-16'> 
+            <div className='flex md:hidden w-full justify-center my-auto absolute space-x-16 mx-4'> 
             <a href='#About'> <FaChild size={30} className='hover:scale-105 fill-black dark:fill-white'/> </a>
             <a href='#projects'> <FaLaptopCode size={30} className='hover:scale-105 fill-black dark:fill-white'/> </a>
             <a href='#Awards'> <FaAward size={30} className='hover:scale-105 fill-black dark:fill-white'/> </a>
