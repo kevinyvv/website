@@ -1,6 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed'
-
+import { FaHtml5, FaPython, FaReact } from "react-icons/fa6";
+import { SiTailwindcss, SiCplusplus } from "react-icons/si";
 
 const Hero = () => {
     
@@ -25,11 +26,15 @@ const Hero = () => {
                 </button>
                 </a> 
         </div>
-        <div id='languages/skills' className='flex justify-center'>
+        <div id='languages/skills' className='flex justify-center space-x-3'>
             <text className="text-black md:text-3xl sm:text-2xl text-xl font-bold md:pl-2 pl-2 dark:text-white">
-                Skills:
+                Skills: 
             </text>
-
+            <FaReact className="dark:fill-[#fcdf88] fill-[#c288fc]" size={40}/>
+            <SiTailwindcss className="dark:fill-[#fcdf88] fill-[#c288fc]" size={40} /> 
+            <FaHtml5 className="dark:fill-[#fcdf88] fill-[#c288fc]" size={40}/>
+            <FaPython className="dark:fill-[#fcdf88] fill-[#c288fc]" size={40}/>
+            <SiCplusplus className="dark:fill-[#fcdf88] fill-[#c288fc]" size={40}/>
         </div>          
         </div>
     </div>
